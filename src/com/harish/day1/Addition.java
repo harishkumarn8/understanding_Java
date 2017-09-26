@@ -1,8 +1,5 @@
 package com.harish.day1;
-
-import java.io.IOException;
 import java.util.Scanner;
-
 public class Addition {
 	public static void main(String[] args) {
 		int a, b;
