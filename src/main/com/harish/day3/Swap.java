@@ -1,4 +1,4 @@
-package com.harish.day3;
+package main.com.harish.day3;
 
 public class Swap {
 

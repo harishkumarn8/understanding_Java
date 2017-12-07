@@ -46,7 +46,7 @@ public class Linkedlist {
 										System.out.println("list is not empty");
 									}
 										
-									 //return true; given error with if
+							
 									}
 			 int	getSize(){
 							return size;

@@ -1,4 +1,4 @@
-package com.harish.day1;
+package main.com.harish.day1;
 import java.util.Scanner;
 public class Stringreverse {
 
@@ -9,14 +9,15 @@ public class Stringreverse {
 		 str = scanner.nextLine();
 		int len = str.length();
 		scanner.close();
-		for(int i=len-1; len>=0; i--){
+		while(len>=0){
+					int i=len-1;
 					// rev= new String();
 					//	String a = new Strin
 					rev = rev+str.charAt(i);
 			
-				System.out.print(rev);
+				//System.out.print(rev);
 		}
-	//	System.out.println("the reverse is" +rev);
+		System.out.println("the reverse is" +rev);
 //scanner.close();
 	}
 

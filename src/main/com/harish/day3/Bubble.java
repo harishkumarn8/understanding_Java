@@ -1,4 +1,4 @@
-package com.harish.day3;
+package main.com.harish.day3;
 
 import java.util.Scanner;
 
@@ -8,13 +8,15 @@ public class Bubble {
 					Scanner scanner = new Scanner(System.in);
 					System.out.println("Enter the number of numbers in the array");
 					int n = scanner.nextInt();
+					final int SIZE=n;
+					int i,j;
 					System.out.println("enter"+n+"intgers to be sorted");
-					int num[]= new int[n];
-					for(int i=0;i<n;i++){
+					int num[]= new int[SIZE];
+					for(i=0;i<SIZE;i++){
 						num[i]=scanner.nextInt();
 					}
-					for(int j=0;j<n-1;j++){
-						for(int i=0;i<n-j;i++){
+					for(j=0;j<SIZE;j++){
+						for(i=0;i<SIZE-j;i++){
 							if(num[i]<num[i+1]){
 								int temp=num[i];
 								num[i]=num[i+1];
@@ -24,7 +26,7 @@ public class Bubble {
 						}
 					}
 							System.out.println("the sorted array is");
-							for(int i=0;i<n;i++){
+							for(i=0;i<SIZE;i++){
 								System.out.println(num[i]);
 							}
 							

@@ -1,4 +1,4 @@
-package com.harish.day1;
+package main.com.harish.day1;
 
 import java.util.Scanner;
 
