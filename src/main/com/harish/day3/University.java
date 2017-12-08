@@ -2,7 +2,7 @@ package main.com.harish.day3;
 public class University{
 			String uname="VTU";
 			String uaddress="Belgaum";
-			int marks[]={35,67,39,89,56};
+			int marks[]={90,67,39,89,56};
 		//	int total;
 			public void udetails(){
 				System.out.println("University name="+uname);
@@ -10,18 +10,21 @@ public class University{
 			}
 			public void results(){
 				int total=0;
-				float per;
+				boolean flag=true;
+				float per=0;
 				for(int x:marks){
 					if(x<35){
 						for(int y:marks){
 							System.out.println(y);
 						}
 						System.out.println("FAIL");
-						break;
+						flag=false;
 						
 					}
+					
 					total+=x;
 				}
+				if(flag){
 			per=total*100/500;
 				if(per>70){
 					System.out.println("passed with Distinction");
@@ -39,5 +42,8 @@ public class University{
 				for(int z:marks){
 					System.out.println(z);
 				}
+			}
+				System.out.println("total marks is :"+total);
+				System.out.println("percentage is :"+per);
 			}
 }
