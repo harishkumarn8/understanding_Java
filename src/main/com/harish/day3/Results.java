@@ -9,10 +9,10 @@ public class Results {
 				s.cdetails();
 				s.sdetails();
 				System.out.println("using Teacher class object");
-				Teacher t =new Teacher();
-				t.udetails();
-				t.cdetails();
-				t.tdetails();
+			Teacher t =new Teacher();
+			//	t.udetails();
+			//	t.cdetails();
+			//	t.tdetails();
 				t.results();
 	}
 
