@@ -6,7 +6,7 @@ public class MatrixOperations {
 		Scanner scanner=new Scanner(System.in);
 		int m,n,p,q;
 		System.out.println("Enter dimensions of the first and second respectively ");
-		m=scanner.nextInt();
+	/*	m=scanner.nextInt();
 		n=scanner.nextInt();
 		p=scanner.nextInt();
 		q=scanner.nextInt();
@@ -30,8 +30,10 @@ public class MatrixOperations {
 			}
 		scanner.close();
 			MatrixMultiplication ma = new MatrixMultiplication(a, b, m, n, p, q);
-			//Matrixclass 
-		//	ma.matrixMultiplication();
+		*/	
+		//	
+			Matrix mat =new Matrix();
+			mat.matrixMultiplication();
 	}
 
 }
